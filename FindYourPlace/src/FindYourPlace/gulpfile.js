@@ -114,7 +114,7 @@ gulp.task("fonts",
 
 gulp.task("images",
 	function () {
-		return gulp.src("./content/**/*.+(jpg|svg)")
+		return gulp.src("./content/**/*.+(jpg|svg|png)")
 			.pipe(gulp.dest("./wwwroot/libs"));
 	});
 
